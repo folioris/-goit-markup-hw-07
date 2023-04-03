@@ -723,16 +723,20 @@ padding-bottom: 120px;
     .team-items {
         display: flex;
         flex-direction: column;
-        width: 264px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 264px;
     }
     .team-name{
         display: flex;
         flex-direction: column;
-        width: 264px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 264px;
     }
 
     .our-team{
-        max-width: 294px;
+
     }
 }
 
