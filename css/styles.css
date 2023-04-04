@@ -555,7 +555,7 @@ text-align: left;
 
     opacity: 0;
     visibility: visible;
-    pointer-events: auto;
+    pointer-events: none;
   }
 
   .mobile-menu.is-open {
