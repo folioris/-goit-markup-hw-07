@@ -25,13 +25,14 @@
   <body>
     <header class="header">
       <div class="container header-container">
+        </button>
         <nav class="nav-header">
           <a href="./index.html" class="logo"
             ><span class="logo-first-part">Web</span
             ><span class="logo-second-part">Studio</span></a
           >
           <ul class="menu-navigation list">
-            <li>
+            <li class="address-item">
               <a class="menu-nav current" href="./index.html">Studio</a>
             </li>
             <li>
@@ -40,6 +41,11 @@
             <li><a class="menu-nav" href>Contacts</a></li>
           </ul>
         </nav>
+        <button type="button" class="open-mob-menu-btn js-open-menu">
+          <svg class="burger" width="32" height="22">
+            <use href="/images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>    
         <address>
           <ul class="address-navigation list">
             <li>
@@ -55,7 +61,25 @@
           </ul>
         </address>
       </div>
+      <div class="mobile-menu js-menu-container">
+        <div class="container mobile-menu-container">
+        <button 
+        type="button" 
+        class="close-menu-btn js-close-menu"
+        aria-expanded="false">
+          <svg width="8" height="8">
+            <use href="/images/icons.svg#icon-close-modal"></use>
+          </svg>
+        </button>
+        <ul class="menu-items list">
+          <li>Studio</li>
+          <li>Portfolio</li>
+          <li>Contacts</li>
+        </ul>
+      </div>
+      </div>
     </header>
+
     <main>
       <section class="section title">
         <div class="container">
@@ -127,7 +151,7 @@
         <div class="container">
           <h2 hidden>"Features">Features</h2>
           <ul class="features list">
-            <li >
+            <li class="features-list">
               <div class="features-items">
                 <svg class="icon-antenna"> 
                   <use href="./images/icons.svg#icon-antenna"></use>
@@ -139,7 +163,7 @@
                 the perfect and creative solution.
               </p>
             </li>
-            <li>
+            <li class="features-list">
               <div class="features-items">
                 <svg class="icon-clock" > 
                 <use href="./images/icons.svg#icon-clock"></use>
@@ -152,7 +176,7 @@
               </p>
             
             </li>
-            <li>
+            <li class="features-list">
               <div class="features-items">
                 <svg class="icon-diagram">
                   <use href="./images/icons.svg#icon-diagram"> </use>
@@ -164,7 +188,7 @@
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li>
+            <li class="features-list">
               <div class="features-items">
                 <svg class="icon-astronaut">
                   <use href="./images/icons.svg#icon-astronaut"></use>
@@ -506,5 +530,6 @@
 </div>
     </footer>
     <script src="./js/modal.js"></script>
+     <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>
