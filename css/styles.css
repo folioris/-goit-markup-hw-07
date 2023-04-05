@@ -780,8 +780,8 @@ color: var(--primary-text-color);
     .address-navigation {
         display: flex;
         flex-direction: column;
-        gap: 12px;
-        padding: 6px 0px;
+        gap: 4px;
+        padding-top: 24px;
         }
 
         .address-nav{
