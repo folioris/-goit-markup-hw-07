@@ -285,7 +285,7 @@ visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .modal {
 position: absolute;
 width: 408px;
-height: 576px;
+
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%) ;
@@ -677,8 +677,26 @@ color: var(--primary-text-color);
 .active {
     color: var(--accent-color);
 }
+
+.modal{
+    width: calc(100% - 2 * 15px);
+    max-width: 408px;
+}
+.form-info{
+    width: 100%;
+}
+.modal-form{
+    width: 100%;
+}
+.text-area{
+    width: 100%;
+}
+.checkbox-text{
+    text-align: left;
+}
   }
 
+  
   /*----MOBILE----*/
 
 
@@ -761,7 +779,7 @@ color: var(--primary-text-color);
   @media screen and (min-width:768px) and (max-width:1199px) {
     .address-navigation {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         gap: 12px;
         padding: 6px 0px;
         }
