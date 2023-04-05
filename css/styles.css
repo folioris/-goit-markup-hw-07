@@ -743,7 +743,7 @@ color: var(--primary-text-color);
         color: #000000;
       }
       .title-desc{
-        max-width: 318px;
+        max-width: 320px;
         width: 100%;
         height: auto;
         margin-left: auto;
@@ -755,6 +755,9 @@ color: var(--primary-text-color);
       .title{
         padding-top: 112px;
         padding-bottom: 112px;
+      }
+      .btn-close-modal{
+        margin-left: auto;
       }
     }
 
@@ -896,7 +899,7 @@ height: 64px;
 
 /*----MOBILE----*/
 
-@media screen and(min-width:320px) and (max-width:767px) {
+@media screen and (max-width:767px) {
     .title-desc {
     font-weight: 700;
      font-size: 36px;
@@ -1128,14 +1131,14 @@ height: 16px;
 
 /*----MOBILE----*/
 
-@media screen and (min-width:320px) and (max-width:767px) {
+@media screen and (max-width:767px) {
     .our-team{
         padding-top: 96px;
         padding-bottom: 96px;
     }
 }
 
-@media screen and (min-width:320px) and (max-width:767px) {
+@media screen and (max-width:767px) {
     .team-items {
         display: flex;
         flex-direction: column;
@@ -1232,7 +1235,7 @@ padding-bottom: 120px;
 
 /* mobile-version */
 
-@media screen and (min-width:320px) and (max-width:767px) {
+@media screen and (max-width:767px) {
     .companies {
         display: flex;
         flex-wrap: wrap;
@@ -1416,7 +1419,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 /*----MOBILE----*/
 
-@media screen and (min-width:320px) and (max-width:767px) {
+@media screen and (max-width:767px) {
     .foot-cont {
         display: flex;
         flex-direction: column;
@@ -1478,6 +1481,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     .foot-cont {
         display: flex;
         flex-wrap: wrap;
+        width: 584px;
     }
     .footer-media{
      margin-left: 24px;
